@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <form class="form">
+                <div class="form__row">
+                    <label class="form__block">
+                        <span class="form__block-title">Первое число</span>
+                        <input type="text" id="num1" class="form__block-input" placeholder="Введите первое действительное число" value="0.1" required>
+                        <span class="error">Введите цифры, точку или знак минус!</span>
+                    </label>
+                </div>
+                <div class="form__row">
+                    <label class="form__block">
+                        <span class="form__block-title">Второе число</span>
+                        <input type="text" id="num2" class="form__block-input" placeholder="Введите второе действительное число" value="0.2" equired>
+                        <span class="error">Введите цифры, точку или знак минус!</span>
+                    </label>
+                </div>
+                <button type="button" class="btn-calculate">Сложить</button>   
+            </form>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
